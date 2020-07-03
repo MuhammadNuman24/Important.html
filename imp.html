@@ -1,0 +1,23 @@
+<script>
+
+    'use strict';
+    
+    //pass by reference
+    
+    function doIt (p1){
+    p1.firstName='Jare';
+       console.log(p1);
+    
+    }
+    
+    const  person={
+    firstName:'Bob',
+    lastName:'Smith',
+    };
+    
+    doIt (person);
+    console.log(person);
+    
+    
+    
+    </script>
